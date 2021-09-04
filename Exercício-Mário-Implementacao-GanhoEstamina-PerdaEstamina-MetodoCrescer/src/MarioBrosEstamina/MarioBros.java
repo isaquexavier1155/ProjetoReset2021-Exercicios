@@ -1,23 +1,23 @@
 package MarioBrosEstamina;
 
-public class MarioBros {
-	private String nome;
+    public class MarioBros {
+  	private String nome;
 	private int idade;
 	private double estamina;
 	private float altura;
 	public boolean contagenCogumelos;
 
 	//Metodo Construtor padrao abaixo:
-	public MarioBros() {
-        this.nome = "Mario Bros";
+	    public MarioBros() {
+		this.nome = "Mario Bros";
         this.altura = 1.50f;
         this.idade = 40;
         this.estamina = 99;
     }
 
 	 //Metodo Construtor que recebe valor para os atributos:
-	 MarioBros(String nom, int ida, double est, float alt) {
-		this.nome=nom;
+	 public MarioBros(String nom, int ida, double est, float alt) {
+	    	this.nome=nom;
 		this.idade=ida;
 		this.estamina= est;
 		this.altura= alt;
@@ -25,10 +25,10 @@ public class MarioBros {
 
 	 //Metodo define poderes Mario abaixo:
 	 public void poderesMario() {
-		System.out.println(nome+ " tem os poderes: Super visao, super pulo e super tamanho");
+	    	System.out.println(nome+ " tem os poderes: Super visao, super pulo e super tamanho");
 	 }
 	 public void reduzEstamina() {
-	    estamina=estamina-10;
+	    	estamina=estamina-10;
 	    if(estamina<0) {
 	    estamina=0;
 	   }
