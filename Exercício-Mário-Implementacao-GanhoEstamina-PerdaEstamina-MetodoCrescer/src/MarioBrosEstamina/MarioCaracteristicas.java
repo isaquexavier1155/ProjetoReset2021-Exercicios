@@ -21,15 +21,15 @@ public class MarioCaracteristicas {
 
 		//Teste:
 		System.out.println("Reducao Progressiva de Estamina:");
-        MarioBros mariotemestamina = new MarioBros();
-        mariotemestamina.caracteristicasMarioAgora();
-        mariotemestamina.reduzEstamina();
-        mariotemestamina.reduzEstamina();
-        mariotemestamina.reduzEstamina();
-        mariotemestamina.caracteristicasMarioAgora();
-        mariotemestamina.reduzEstamina();
-        mariotemestamina.reduzEstamina();
-        mario4.caracteristicasMarioAgora();
+                MarioBros mariotemestamina = new MarioBros();
+                mariotemestamina.caracteristicasMarioAgora();
+                mariotemestamina.reduzEstamina();
+                mariotemestamina.reduzEstamina();
+                mariotemestamina.reduzEstamina();
+                mariotemestamina.caracteristicasMarioAgora();
+                mariotemestamina.reduzEstamina();
+                mariotemestamina.reduzEstamina();
+                mario4.caracteristicasMarioAgora();
 
 		}
 
