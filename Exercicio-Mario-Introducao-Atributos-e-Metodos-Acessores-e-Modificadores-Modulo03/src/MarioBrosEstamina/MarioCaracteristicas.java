@@ -8,11 +8,11 @@ public class MarioCaracteristicas {
 		carac.CaracteristicasMarioAgora();
 		carac.PoderesMario();
 		
-		MarioBros carac2 = new MarioBros("Super Mario Bros", 29, 122, 1.9f);//novo instanciamento
+		MarioBros carac2 = new MarioBros("Super Mario Bros", 34, 122, 1.9f);//novo instanciamento
 		carac2.CaracteristicasMarioAgora();
 		carac2.PoderesMario();
 		
-		MarioBros carac3 = new MarioBros("Mariozinho Bros", 99, 20, 2.2f); 
+		MarioBros carac3 = new MarioBros("Mariozinho Bros", 80, 20, 2.2f); 
 		carac3.CaracteristicasMarioAgora();
 		carac3.PoderesMario();
 	
