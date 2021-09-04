@@ -8,7 +8,7 @@ package MarioBrosEstamina;
 	public boolean contagenCogumelos;
 
 	//Metodo Construtor padrao abaixo:
-	    public MarioBros() {
+	public MarioBros() {
 		this.nome = "Mario Bros";
         this.altura = 1.50f;
         this.idade = 40;
