@@ -20,27 +20,16 @@ public class MarioCaracteristicas {
 		carac2.poderesMario();
 
 		//Teste:
-		System.out.println("Teste para ver se o mario mant�m a estamina em 0 ap�s o desconto at� um valor menor que zero");
-        MarioBros mario4 = new MarioBros();
+		System.out.println("Reducao Progressiva de Estamina:");
+        MarioBros mariotemestamina = new MarioBros();
+        mariotemestamina.caracteristicasMarioAgora();
+        mariotemestamina.reduzEstamina();
+        mariotemestamina.reduzEstamina();
+        mariotemestamina.reduzEstamina();
+        mariotemestamina.caracteristicasMarioAgora();
+        mariotemestamina.reduzEstamina();
+        mariotemestamina.reduzEstamina();
         mario4.caracteristicasMarioAgora();
-        mario4.reduzEstamina(); // desconta 10
-        mario4.reduzEstamina(); // desconta 10
-        mario4.caracteristicasMarioAgora();
-        mario4.reduzEstamina(); // desconta 10
-        mario4.reduzEstamina(); // desconta 10
-        mario4.reduzEstamina(); // desconta 10
-        mario4.caracteristicasMarioAgora();
-        mario4.reduzEstamina(); // desconta 10
-        mario4.reduzEstamina(); // desconta 10
-        mario4.reduzEstamina(); // desconta 10
-        mario4.caracteristicasMarioAgora();
-        mario4.reduzEstamina(); // desconta 10
-        mario4.reduzEstamina(); // desconta 10
-        mario4.caracteristicasMarioAgora();
-        mario4.reduzEstamina(); // desconta 10
-        mario4.reduzEstamina(); // desconta 10
-        mario4.caracteristicasMarioAgora();
-        System.out.println("---");
 
 		}
 
