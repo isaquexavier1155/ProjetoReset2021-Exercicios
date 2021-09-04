@@ -15,7 +15,8 @@ package MarioBrosEstamina;
     }
 
 	 //Metodo Construtor que recebe valor para os atributos:
-	 public MarioBros(String nom, int ida, double est, float alt) {this.nome=nom;
+	 public MarioBros(String nom, int ida, double est, float alt) {
+		this.nome=nom;
 		this.idade=ida;
 		this.estamina= est;
 		this.altura= alt;
