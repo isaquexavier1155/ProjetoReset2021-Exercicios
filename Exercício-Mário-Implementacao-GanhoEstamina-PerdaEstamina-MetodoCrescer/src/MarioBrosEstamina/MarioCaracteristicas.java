@@ -14,12 +14,13 @@ public class MarioCaracteristicas {
 		carac.caracteristicasMarioAgora();
 		carac.poderesMario();
 		
-		
+		//Instanciamentos:
 		MarioBros carac2 = new MarioBros("Super Mario Bros", 29, 120, 1.9f);//novo instanciamento
 		carac2.caracteristicasMarioAgora();
 		carac2.poderesMario();
-		
-		System.out.println("Teste para ver se o mario mantém a estamina em 0 após o desconto até um valor menor que zero");
+
+		//Teste:
+		System.out.println("Teste para ver se o mario mantï¿½m a estamina em 0 apï¿½s o desconto atï¿½ um valor menor que zero");
         MarioBros mario4 = new MarioBros();
         mario4.caracteristicasMarioAgora();
         mario4.reduzEstamina(); // desconta 10
@@ -40,11 +41,6 @@ public class MarioCaracteristicas {
         mario4.reduzEstamina(); // desconta 10
         mario4.caracteristicasMarioAgora();
         System.out.println("---");
-		
-		//MarioBros carac3 = new MarioBros("Mariozinho Bros", 99, 20, 2.2f); 
-		//carac3.CaracteristicasMarioAgora();
-		//carac3.PoderesMario();
-	
 
 		}
 

@@ -6,8 +6,7 @@ public class MarioBros {
 	private double estamina;
 	private float altura;
 	public boolean contagenCogumelos;
-	
-	
+
 	//Metodo Construtor padrao abaixo:
 	public MarioBros() {
         this.nome = "Mario Bros";
@@ -15,55 +14,44 @@ public class MarioBros {
         this.idade = 40;
         this.estamina = 99;
     }
-	
-	
-	//Metodo Construtor que recebe valor para os atributos:
+
+	 //Metodo Construtor que recebe valor para os atributos:
 	 MarioBros(String nom, int ida, double est, float alt) {
 		this.nome=nom;
 		this.idade=ida;
 		this.estamina= est;
 		this.altura= alt;
-				
 	}
+
 	 //Metodo define poderes Mario abaixo:
-	 
 	 public void poderesMario() {
-		 
-		 System.out.println(nome+ " tem os poderes: Super visao, super pulo e super tamanho");
+		System.out.println(nome+ " tem os poderes: Super visao, super pulo e super tamanho");
 	 }
-	 
 	 public void reduzEstamina() {
-	 estamina=estamina-10;
-	 if(estamina<0) {
-	 estamina=0;
-	 }
-		 
-	 }
+	    estamina=estamina-10;
+	    if(estamina<0) {
+	    estamina=0;
+	   }
+	}
 	 
 	 public void aumentaEstamina() {
-		 estamina=estamina+5;
-		 //aumentarEstamina=estamina+5;
-		 
+		 estamina=estamina+5;//aumentarEstamina=estamina+5;
 		 if(estamina>100) {
-			 estamina=100;
-			 
+		 	estamina=100;
 		 }
-		 
 	 }
+
 	 public void comeuCogumelos(){
-		 contagenCogumelos=true;	 
-		 
+		 contagenCogumelos=true;
 	 }
 	 
 	 public void crescer() {
-	if(contagenCogumelos==true)
-		altura= altura*2;
-		 
+	    if(contagenCogumelos==true) {
+			altura = altura * 2;
+		  }
 	 }
 	 
-	 
-	 
-	 
+
 	//Metodos geter`s e seter`s abaixo
 	public String getNome() {
 	return this.nome;
@@ -113,7 +101,5 @@ public class MarioBros {
 	System.out.println("Altura "+nome+": "+altura+"m");
 		
 	}
-	
-	
 
 }
